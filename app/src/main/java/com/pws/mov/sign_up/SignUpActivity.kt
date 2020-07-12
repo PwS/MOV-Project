@@ -86,7 +86,14 @@ class SignUpActivity : AppCompatActivity() {
 
             override fun onDataChange(dataSnapshot: DataSnapshot) {
                 var users = dataSnapshot.getValue(Users::class.java)
-                if (users == null) {
+                if (users != null) {
+                    Toast.makeText(
+                        this@SignUpActivity,
+                        "Username Already Exists",
+                        Toast.LENGTH_SHORT
+                    ).show()
+
+                } else {
                     mFirebaseReference.child(vuserName).setValue(data)
                     preferences.setValue("nama", data.nama.toString())
                     preferences.setValue("user", data.username.toString())
@@ -99,13 +106,6 @@ class SignUpActivity : AppCompatActivity() {
                             data.nama
                         )
                     startActivity(moveSignUpPhotoScreen)
-                } /*else if (users != null) {*/
-                else {
-                    Toast.makeText(
-                        this@SignUpActivity,
-                        "Username Already Exists",
-                        Toast.LENGTH_SHORT
-                    ).show()
                 }
             }
         })

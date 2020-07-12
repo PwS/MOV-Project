@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">MOV</string>
-    <string name="skip_introduction">Lewati Perkenalan</string>
-    <string name="continuee">Lanjutkan</string>
+    <string name="skip_introduction">Skip Introduction</string>
+    <string name="continuee">Continue</string>
     <string name="now_playing">Now Playing</string>
     <string name="now_playing_desc">Lebih mudah untuk mengetahui\nfilm yang sedang tampil</string>
     <string name="pre_sale">Pre Sale</string>

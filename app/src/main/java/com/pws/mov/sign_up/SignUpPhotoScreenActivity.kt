@@ -26,6 +26,7 @@ import com.karumi.dexter.listener.PermissionRequest
 import com.karumi.dexter.listener.single.PermissionListener
 import com.pws.mov.HomeScreenActivity
 import com.pws.mov.R
+import com.pws.mov.sign_in.SignInActivity
 import com.pws.mov.utils.*
 import kotlinx.android.synthetic.main.activity_sign_up_photoscreen.*
 import java.io.File
@@ -51,6 +52,12 @@ class SignUpPhotoScreenActivity : AppCompatActivity(), PermissionListener {
         storage = FirebaseStorage.getInstance();
         storageReference = storage.getReference();
         tv_hello.text = "Selamat Datang\n" + intent.getStringExtra("nama")
+
+        btn_back.setOnClickListener {
+            val back = Intent(this@SignUpPhotoScreenActivity, SignUpActivity::class.java)
+            startActivity(back)
+            finishAffinity()
+        }
 
         btn_uploadLater.setOnClickListener {
             val uploadLater = Intent(this, HomeScreenActivity::class.java)

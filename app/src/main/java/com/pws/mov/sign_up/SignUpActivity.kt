@@ -9,6 +9,7 @@ import com.google.firebase.database.*
 import com.google.firebase.database.ktx.database
 import com.pws.mov.R
 import com.pws.mov.model.Users
+import com.pws.mov.sign_in.SignInActivity
 import com.pws.mov.utils.Preferences
 import kotlinx.android.synthetic.main.activity_sign_in.*
 import kotlinx.android.synthetic.main.activity_sign_up.*
@@ -39,6 +40,12 @@ class SignUpActivity : AppCompatActivity() {
         mFirebaseReference = mFirebaseInstance.getReference("User")
 
         preferences = Preferences(this)
+
+        btn_back.setOnClickListener {
+            val back = Intent(this@SignUpActivity, SignInActivity::class.java)
+            startActivity(back)
+            finishAffinity()
+        }
 
 
         btn_continue.setOnClickListener {

@@ -1,5 +1,7 @@
 package com.pws.mov.sign_in
 
+import android.app.AlertDialog
+import android.content.DialogInterface
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
@@ -100,4 +102,17 @@ class SignInActivity : AppCompatActivity() {
             }
         })
     }
+
+    //OnBackPress
+    override fun onBackPressed() {
+        AlertDialog.Builder(this)
+            .setMessage("Exit Application ?")
+            .setCancelable(false)
+            .setPositiveButton("Yes",
+                DialogInterface.OnClickListener { arg0, arg1 -> finish() })
+            .setNegativeButton("No",
+                DialogInterface.OnClickListener { dialog, which -> dialog.dismiss() })
+            .show()
+    }
+
 }

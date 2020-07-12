@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">MOV</string>
+    <string name="skip_introduction">Lewati Perkenalan</string>
+    <string name="continuee">Lanjutkan</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="now_playing_desc">Lebih mudah untuk mengetahui\nfilm yang sedang tampil</string>
+    <string name="pre_sale">Pre Sale</string>
+    <string name="pre_sale_desc">Tidak khawatir ketinggalan\nupdate film terbaru</string>
+    <string name="cashless">Cashless</string>
+    <string name="cashless_desc">Gunakan e-wallet untuk\ntransaksi tiket nonton</string>
+    <string name="sign_in">Sign In</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="input_account">Masukkan Akun</string>
+    <string name="register_new_account">Daftar Akun Baru</string>
+    <string name="name">Nama</string>
+    <string name="email_address">E-Mail Address</string>
+    <string name="upload_later">Upload Nanti</string>
+    <string name="save_and_continue">Simpan dan Lanjutan</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="photo">Photo</string>
+    <string name="welcome">Selamat Datang\nusername</string>
+    <string name="currency">IDR</string>
+    <string name="coming_soon">Coming Soon</string>
+    <string name="storyboard">Storyboard</string>
+    <string name="storyboard_desc">The Avengers must stop Thanos, a mad Titan, and his  army from getting their hands on all the infinity stones.  However, the mad Titan is prepared to go to any lengths  to carry out his insane plan.</string>
+    <string name="whos_played">Who’s Played</string>
+    <string name="choose_a_seat">Pilih Tempat Duduk</string>
+    <string name="CinemaScreen">LAYAR BIOSKOP</string>
+    <string name="buy_ticket">Beli Tiket</string>
+    <string name="checkout">Checkout</string>
+    <string name="buy_now">Bayar Sekarang</string>
+    <string name="cancel">Batalkan</string>
+    <string name="when">When</string>
+    <string name="date_time">Date &amp; time</string>
+    <string name="cinema">Cinema</string>
+    <string name="items">Items</string>
+    <string name="seat">Seat</string>
+    <string name="total_pay">Total Harus Dibayar</string>
+    <string name="ewallet">E-Wallet</string>
+    <string name="total_balance">Total Balance</string>
+    <string name="savenewdata">Simpan Data Baru</string>
+    <string name="editprofile">Edit Profile</string>
+    <string name="mywallet">My Wallet</string>
+    <string name="listoftransactions">Daftar Transaksi</string>
+    <string name="history">History</string>
+    <string name="login">Login</string>
+
+
+</resources>

@@ -89,7 +89,7 @@ class SignInActivity : AppCompatActivity() {
                         preferences.setValue("url", user.url.toString())
                         preferences.setValue("email", user.email.toString())
                         preferences.setValue("saldo", user.saldo.toString())
-                        //StatusLogin 1 Already Not Login , 0 Not Login
+                        //StatusLogin 1 Already Login , 0 Not Login
                         preferences.setValue("status", "1")
                         var moveHomeScreen =
                             Intent(this@SignInActivity, HomeScreenActivity::class.java)

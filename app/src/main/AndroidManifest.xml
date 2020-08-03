@@ -23,7 +23,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.noActionBar">
         <activity android:name=".DetailActivity"></activity>
-        <activity android:name=".HomeScreenActivity" />
+        <activity android:name=".home.HomeScreenActivity" />
         <activity android:name=".onboarding.OnboardingOneActivity" />
         <activity android:name=".onboarding.OnboardingTwoActivity" />
         <activity android:name=".onboarding.OnboardingThreeActivity" />

@@ -7,7 +7,7 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.database.*
-import com.pws.mov.HomeScreenActivity
+import com.pws.mov.home.HomeScreenActivity
 import com.pws.mov.R
 import com.pws.mov.model.Users
 import com.pws.mov.sign_up.SignUpActivity
